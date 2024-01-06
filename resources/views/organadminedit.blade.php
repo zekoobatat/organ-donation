@@ -85,6 +85,7 @@
                         <option value="AB-" @if($organ->blood === 'AB-') selected @endif>AB-</option>
                         <option value="O+" @if($organ->blood === 'O+') selected @endif>O+</option>
                         <option value="O-" @if($organ->blood === 'O-') selected @endif>O-</option>
+
                     </select>
                 </div>
 
